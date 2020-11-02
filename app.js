@@ -47,7 +47,7 @@ function gameOn(e) {
     selectSection.classList.remove("rotate");
   }, 700); //a timeout to enable the rotate animation finish
 
-  setTimeout(computer, 1600); //a little loading time to delay computer function runs
+  setTimeout(computer, 900); //a little loading time to delay computer function runs
 
   //the brain processing of the game is on this function!
   function computer() {
