@@ -85,12 +85,7 @@ header p {
   animation: spin 0.7s ease-out;
   opacity: 0.7;
 }
-@keyframes spin {
-  to {
-    opacity: 0;
-    transform: rotate(380deg);
-  }
-}
+
 .fade {
   animation: fade 0.5s ease-in;
 }
